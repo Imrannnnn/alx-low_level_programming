@@ -1,8 +1,7 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - print _putchar by a new line
- * Return: Alwasy 0
+ * main - print putchar
+ * Return: 0
  */
 
 int main(void)
@@ -12,9 +11,9 @@ int main(void)
 	putchar('u');
 	putchar('t');
 	putchar('c');
-	putchar('h');
 	putchar('a');
 	putchar('r');
+	putchar('\n');
 
 	return (0);
 }
