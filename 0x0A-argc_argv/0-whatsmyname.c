@@ -1,23 +1,18 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- *main - prints the name of the program
- *@argc: count
- *@argv: lines of strings
- *Return: always 0
+ * main - Print the name of the program
+ * @argc: Count arguments
+ * @argv: Arguments
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(int argc, char *argv[])
 {
-	printf("argc = %d\n", argc);
-	printf("mynameis\n");
-
-	int i;
-
-	for (i = 0; i < argc; i++)
-	{
-		printf("agrv[%d] = %s\n", i, argv[i]);
-	}
+	(void) argc;
+	printf("%s\n", argv[0]);
 	return (0);
 }
 
