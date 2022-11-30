@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Prints the sizeof many var types
+ * main- is the entry point for the program.
  *
  * Retrun: Alwars 0 (immy)
  */
 
-
 int main(void)
+
 {
 
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
